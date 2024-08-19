@@ -8,7 +8,7 @@ const EventForm = ({ event = {}, date, onClose, event_type }) => {
   const [title, setTitle] = useState(event?.title || '');
   const [eventDate, setEventDate] = useState(event?.date || date || '');
   const [description, setDescription] = useState(event?.description || '');
-  const [category, setCategory] = useState();
+  const [category, setCategory] = useState(event?.category || 'Work');
 
   console.log(eventDate)
   useEffect(() => {
