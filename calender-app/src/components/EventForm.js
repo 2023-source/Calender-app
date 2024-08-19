@@ -1,4 +1,4 @@
-// src/components/EventForm.js
+
 import React, { useState, useEffect } from 'react';
 import { useEvent } from '../hooks/useEvent';
 import '../styles/App.css';
